@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Toll Tax System</string>
+    <string name="about_us">"Toll Tax System works to provide a better toll collection system among different highways. Toll Plazas can register themselves here and can get information about any vehicle by its number plate and can generate the bill and send receipt to toll tax payer on their mobile number and email address."</string>
+    <string name="msg_token_fmt">%s</string>
+    <string-array name="vtype">
+        <item>Select Vehicle Type</item>
+        <item>Car/Van</item>
+        <item>LCV</item>
+        <item>Bus/Truck</item>
+        <item>Upto 3 Axle Vehicle</item>
+        <item>4-6 Axle</item>
+        <item>HCM/EME</item>
+        <item>7 or more Axle</item>
+    </string-array>
+
+    <string-array name="jtype">
+        <item>Select Journey Type</item>
+        <item>One Way</item>
+        <item>Two Way</item>
+        <item>Monthly Pass</item>
+    </string-array>
+
+</resources>

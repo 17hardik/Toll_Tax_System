@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "681031954119",
+    "firebase_url": "https://toll-79537.firebaseio.com",
+    "project_id": "toll-79537",
+    "storage_bucket": "toll-79537.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681031954119:android:bc1f0856e31d9f427258e2",
+        "android_client_info": {
+          "package_name": "com.example.toll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681031954119-tmb3pc7n0latmiokde7ucg9ffvinrmgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toll",
+            "certificate_hash": "7eec0022a7f8439d82f6a38d00d54d989d98d606"
+          }
+        },
+        {
+          "client_id": "681031954119-4fgug8h0d48b5kdo9vpcbc7e56b42tiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB9gslhMRovCFdt8yx6z2yVqKPYWSaQDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681031954119-4fgug8h0d48b5kdo9vpcbc7e56b42tiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="120dp"
+       android:layout_marginTop="30dp"
+       android:text="About Us"
+       android:textStyle="bold"
+       android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:text="@string/about_us"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="70dp"
+        android:text="Developer Team"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hardik Sharma"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coding, Database management"
+        android:textSize="15sp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harshit Sehgal"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requirement gathering, Logo designing"
+        android:textSize="15sp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghanshyam Kushwah"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interface designing"
+        android:textSize="15sp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bharat Rajawat"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Testing"
+        android:textSize="15sp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="-20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

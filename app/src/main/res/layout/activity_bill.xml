@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#CCCCCC">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="490dp"
+    android:background="#FFFFFF"
+    android:layout_marginTop="7dp">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/date"
+     android:text=""
+     android:textStyle="bold"
+     android:layout_marginTop="5dp"
+     android:layout_marginStart="85dp"
+     android:textSize="20sp"/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:id="@+id/vnumber"
+     android:textStyle="bold"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="50dp"
+     android:text="Vehicle Number : "/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/vnumber"
+      android:text=""
+      android:layout_marginTop="50dp"
+      android:layout_marginStart="25dp"
+      android:id="@+id/Vnumber"
+      android:textSize="20sp"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:id="@+id/vtype"
+     android:textStyle="bold"
+     android:layout_marginStart="20dp"
+     android:layout_below="@+id/vnumber"
+     android:layout_marginTop="30dp"
+     android:text="Vehicle Type : "/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/vtype"
+     android:text=""
+     android:layout_below="@+id/Vnumber"
+     android:layout_marginTop="30dp"
+     android:layout_marginStart="50dp"
+     android:id="@+id/Vtype"
+     android:textSize="20sp"/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:id="@+id/ntyre"
+     android:textStyle="bold"
+     android:layout_below="@+id/vtype"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="30dp"
+     android:text="No. of Tyres : "/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/ntyre"
+     android:text=""
+     android:layout_below="@+id/Vtype"
+     android:layout_marginTop="30dp"
+     android:layout_marginStart="55dp"
+     android:id="@+id/Ntyre"
+     android:textSize="20sp"/>
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:id="@+id/oname"
+     android:textStyle="bold"
+     android:layout_below="@+id/ntyre"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="30dp"
+     android:text="Owner's Name : "/>
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/oname"
+     android:text=""
+     android:layout_below="@+id/Ntyre"
+     android:layout_marginTop="30dp"
+     android:layout_marginStart="25dp"
+     android:id="@+id/Oname"
+     android:textSize="20sp"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/oname"
+     android:textSize="20sp"
+     android:id="@+id/oemail"
+     android:textStyle="bold"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="30dp"
+     android:text="Owner's Email : "/>
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/oemail"
+     android:text=""
+     android:layout_marginTop="30dp"
+     android:layout_below="@+id/Oname"
+     android:layout_marginStart="25dp"
+     android:id="@+id/Oemail"
+     android:textSize="20sp"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:textStyle="bold"
+     android:id="@+id/onumber"
+     android:layout_below="@+id/oemail"
+     android:layout_marginStart="20dp"
+     android:layout_marginTop="80dp"
+     android:text="Owner's Mobile : "/>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/onumber"
+     android:text=""
+     android:layout_below="@+id/Oemail"
+     android:layout_marginTop="30dp"
+     android:layout_marginStart="15dp"
+     android:id="@+id/Onumber"
+     android:textSize="20sp"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Amount to be paid (in Rs.) : "
+     android:layout_marginTop="40dp"
+     android:layout_marginStart="20dp"
+     android:textStyle="bold"
+     android:layout_below="@id/onumber"
+     android:textSize="20sp"
+     android:id="@+id/amount"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toRightOf="@+id/amount"
+     android:text=""
+     android:layout_below="@+id/Onumber"
+     android:layout_marginTop="40dp"
+     android:layout_marginStart="10dp"
+     android:id="@+id/price"
+     android:textSize="20sp"/>
+</RelativeLayout>
+    <Button
+        android:id="@+id/smsbutton"
+        android:layout_width="150dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/mailbutton"
+        android:layout_width="150dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_toRightOf="@id/smsbutton"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Send Mail" />
+
+
+</RelativeLayout>
